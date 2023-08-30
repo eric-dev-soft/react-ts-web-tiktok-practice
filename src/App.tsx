@@ -1,21 +1,12 @@
 import {
   createBrowserRouter,
   createRoutesFromElements,
-  Route,
   RouterProvider,
 } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import { Layout } from './components/Layouts/Layout'
-import Following from './pages/Following/Following'
+import { publicRoutes } from './routes'
+import { Layout } from './components/Layouts'
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <>
-      <Route path="/" element={<Home />} />
-      <Route path="/following" element={<Following />} />
-    </>
-  )
-)
+const router = createBrowserRouter(createRoutesFromElements(<></>))
 
 function App() {
   return (

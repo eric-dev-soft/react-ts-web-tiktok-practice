@@ -1,7 +1,5 @@
-import React from 'react'
+import { ReactNode } from 'react'
 
-function Following() {
-  return <div>Following</div>
+export const Following = (): ReactNode => {
+  return <>Following</>
 }
-
-export default Following

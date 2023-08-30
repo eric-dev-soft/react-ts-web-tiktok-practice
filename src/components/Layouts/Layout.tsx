@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from './Header'
-import Sidebar from './Sidebar'
+import { Header, Sidebar } from '.'
 
 type LayoutProps = {
   children: React.ReactNode
@@ -10,8 +9,10 @@ export const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Header />
-      <Sidebar />
-      <main>{children}</main>
+      <div className="container">
+        <Sidebar />
+        <main className="content">{children}</main>
+      </div>
     </>
   )
 }
