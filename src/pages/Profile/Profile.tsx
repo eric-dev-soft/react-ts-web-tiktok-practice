@@ -1,5 +1,5 @@
-import React from 'react'
+import { ReactNode } from 'react'
 
-export const Profile: React.ReactNode = () => {
+export const Profile: ReactNode = () => {
   return <>Profile</>
 }

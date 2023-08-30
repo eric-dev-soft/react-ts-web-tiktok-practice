@@ -1,5 +1,5 @@
-import React from 'react'
+import { ReactNode } from 'react'
 
-export const Following: React.ReactNode = () => {
+export const Following: ReactNode = () => {
   return <>Following</>
 }

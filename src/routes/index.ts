@@ -1,8 +1,9 @@
+import { ReactNode } from 'react'
 import { Following, Home, Profile } from '../pages'
 
 type RoutesProps = {
   path: string
-  component: React.ReactNode
+  component: ReactNode
 }[]
 
 const publicRoutes: RoutesProps = [
