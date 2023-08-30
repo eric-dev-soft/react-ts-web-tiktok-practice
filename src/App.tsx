@@ -10,8 +10,8 @@ import { Layout } from './components/Layouts'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      {publicRoutes.map((route) => (
-        <Route path={route.path} element={route.component} />
+      {publicRoutes.map(({ path, component: Component }) => (
+        <Route path={path} element={<Component />} key={path} />
       ))}
     </>
   )

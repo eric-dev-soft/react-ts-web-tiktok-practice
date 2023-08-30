@@ -1,3 +1,5 @@
-export const Home: React.FC = () => {
+import React from 'react'
+
+export const Home: React.ReactNode = () => {
   return <>Home</>
 }

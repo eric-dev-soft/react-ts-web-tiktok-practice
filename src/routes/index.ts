@@ -2,7 +2,7 @@ import { Following, Home, Profile } from '../pages'
 
 type RoutesProps = {
   path: string
-  component: React.FC
+  component: React.ReactNode
 }[]
 
 const publicRoutes: RoutesProps = [
