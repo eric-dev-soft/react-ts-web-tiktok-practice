@@ -1,5 +1,3 @@
-import { ReactNode } from 'react'
-
-export const Profile = (): ReactNode => {
+export const Profile: React.FC = () => {
   return <>Profile</>
 }

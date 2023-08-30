@@ -1,5 +1,3 @@
-import { ReactNode } from 'react'
-
-export const Following = (): ReactNode => {
+export const Following: React.FC = () => {
   return <>Following</>
 }
